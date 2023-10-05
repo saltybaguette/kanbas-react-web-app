@@ -3,128 +3,270 @@
 <head>
     <meta charset="UTF-8">
     <title>Profile Edit</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+    <link href="../style/sideBarMenu.css"
+          rel="stylesheet"/>
+    <link href="../style/editProfile.css"
+          rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/assets/css/all.css" rel="stylesheet"/>
 </head>
 <body>
-<table width="100%">
-    <tr>
-        <td valign="top" rowspan="2">
-            <ul>
-                <li>
-                    <a href="index.html">Account</a>
-                </li>
-                <li>
-                    <a href="#">Dashboard</a>
-                </li>
-                <li>
-                    <a href="#">Courses</a>
-                </li>
-                <li>
-                    <a href="#">Calendar</a>
-                </li>
-                <li>
-                    <a href="#">Inbox</a>
-                </li>
-                <li>
-                    <a href="#">History</a>
-                </li>
-                <li>
-                    <a href="#">Studio</a>
-                </li>
-                <li>
-                    <a href="#">Commons</a>
-                </li>
-                <li>
-                    <a href="#">Help</a>
-                </li>
-            </ul>
-        </td>
-        <td valign="top" rowspan="2">
-            <ul>
-                <li>
-                    <a href="#">Notifications</a>
-                </li>
-                <li>
-                    <a href="index.html">Profile</a>
-                </li>
-                <li>
-                    <a href="#">Files</a>
-                </li>
-                <li>
-                    <a href="#">Settings</a>
-                </li>
-                <li>
-                    <a href="#">ePortfolios</a>
-                </li>
-                <li>
-                    <a href="#">Shared Content</a>
-                </li>
-                <li>
-                    <a href="#">The Hub</a>
-                </li>
-                <li>
-                    <a href="#">Qwickly Course Tools</a>
-                </li>
-                <li>
-                    <a href="#">Global Announcements</a>
-                </li>
-            </ul>
-        </td>
-        <td colspan="2">
-            <h2>
-                Jose Annunziato
-            </h2>
-            Name:*
-            <input id="name-input" type="text"/>
-            Pronouns:
-            <select>
-                <option value="NONE">None</option>
-            </select>
-            <br/>
-            <br/>
-            Title:
-            <input id="title-input" type="text"/>
-            <br/>
-            <h3>Contact</h3>
-            <p>No registered services you can add some on the settings page.</p>
-            <h3>Contact</h3>
-            <p>No registered services you can add some on the settings page.</p>
-            <h3>Biography</h3>
-            Faculty, Software Engineer, AI, Space, and renewables enthusiast.
-            <br/>
-            <textarea cols="50" rows="5">Faculty, Software Engineer, AI, Space, and renewables enthusiast.</textarea>
-            <br/>
-            <h3>Links</h3>
-            <br/>
-            <ul>
-                <li>
-                    <a href="#">YouTube</a>
-                </li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <td valign="Top">
-            <h4>Title</h4>
-            <input id="link-name" type="text"/>
-            <br/>
-            <button type="button">Add another link</button>
-            <br/>
-            <button type="button">Cancel</button>
-            <form action="index.html">
-                <input type="submit" value="Save Profile" />
-            </form>
-            <br/>
-            <button type="button">Edit Profile</button>
-            <form action="index.html">
-                <input type="submit" value="Cancel Editing" />
-            </form>
-        </td>
-        <td valign="Top">
-            <h4>URL</h4>
-            <input id="link-input" type="text"/>
-            <a href="#">Remove</a>
-        </td>
-    </tr>
-</table>>
+<div class="container">
+    <div class="col-md-1 wd-sidebar">
+        <div>
+            <a href="../home.html"><img src="../../nulogo.png"
+                                        class="card-img-top" alt="..."></a>
+        </div>
+        <ul class="wd-menu-list">
+
+
+            <li class="wd-list-item-selected">
+                <a href="index.html">
+                    <div class="menu-item-icon-container-account-selected">
+                        <i class="fa-regular fa-2x fa-circle-user wd-margin-bottom"></i>
+                    </div>
+                    <div class="menu-item-text-selected">
+                        Profile
+                    </div>
+                </a>
+            </li>
+
+
+            <li class="wd-list-item">
+                <a href="../dashboard/index.html">
+                    <div class="menu-item-icon-container">
+                        <i class="fa-solid fa-2x fa-gauge wd-margin-bottom"></i>
+                    </div>
+                    <div class="menu-item-text">
+                        Dashboard
+                    </div>
+                </a>
+            </li>
+
+
+            <li class="wd-list-item">
+                <a href="#">
+                    <div class="menu-item-icon-container">
+                        <i class="fa-solid fa-2x fa-book wd-margin-bottom"></i>
+                    </div>
+                    <div class="menu-item-text">
+                        Courses
+                    </div>
+                </a>
+            </li>
+
+
+            <li class="wd-list-item">
+                <a href="#">
+                    <div class="menu-item-icon-container">
+                        <i class="fa-solid fa-2x fa-calendar-day wd-margin-bottom"></i>
+                    </div>
+                    <div class="menu-item-text">
+                        Calendar
+                    </div>
+                </a>
+            </li>
+
+
+            <li class="wd-list-item">
+                <a href="#">
+                    <div class="menu-item-icon-container">
+                        <i class="fa-solid fa-2x fa-inbox wd-margin-bottom"></i>
+                    </div>
+                    <div class="menu-item-text">
+                        Inbox
+                    </div>
+                </a>
+            </li>
+
+
+            <li class="wd-list-item">
+                <a href="#">
+                    <div class="menu-item-icon-container">
+                        <i class="fa-solid fa-2x fa-clock wd-margin-bottom"></i>
+                    </div>
+                    <div class="menu-item-text">
+                        History
+                    </div>
+                </a>
+            </li>
+
+
+            <li class="wd-list-item">
+                <a href="#">
+                    <div class="menu-item-icon-container">
+                        <i class="fa-solid fa-2x fa-computer wd-margin-bottom"></i>
+                    </div>
+                    <div class="menu-item-text">
+                        Studio
+                    </div>
+                </a>
+            </li>
+
+
+            <li class="wd-list-item">
+                <a href="#">
+                    <div class="menu-item-icon-container">
+                        <i class="fa-solid fa-2x fa-circle-right wd-margin-bottom"></i>
+                    </div>
+                    <div class="menu-item-text">
+                        Commons
+                    </div>
+                </a>
+            </li>
+
+
+            <li class="wd-list-item">
+                <a href="#">
+                    <div class="menu-item-icon-container">
+                        <i class="fa-regular fa-2x fa-question-circle wd-margin-bottom"></i>
+                    </div>
+                    <div class="menu-item-text">
+                        Help
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="col-md-1 wd-submenu">
+        <ul class="wd-submenu">
+            <li class="wd-submenu-list-item">
+                <a href="#">
+                    <div class="wd-submenu-item-text">Notifications</div>
+                </a>
+            </li>
+            <li class="wd-submenu-list-item-selected">
+                <a href="index.html">
+                    <div class="wd-submenu-item-text-selected">Profile</div>
+                </a>
+            </li>
+            <li class="wd-submenu-list-item">
+                <a href="#">
+                    <div class="wd-submenu-item-text">Files</div>
+                </a>
+            </li>
+            <li class="wd-submenu-list-item">
+                <a href="#">
+                    <div class="wd-submenu-item-text">Settings</div>
+                </a>
+            </li>
+            <li class="wd-submenu-list-item">
+                <a href="#">
+                    <div class="wd-submenu-item-text">ePortfolio</div>
+                </a>
+            </li>
+            <li class="wd-submenu-list-item">
+                <a href="#">
+                    <div class="wd-submenu-item-text">Shared Content</div>
+                </a>
+            </li>
+            <li class="wd-submenu-list-item">
+                <a href="#">
+                    <div class="wd-submenu-item-text">The Hub</div>
+                </a>
+            </li>
+            <li class="wd-submenu-list-item">
+                <a href="#">
+                    <div class="wd-submenu-item-text">Qwickly Course Tools</div>
+                </a>
+            </li>
+            <li class="wd-submenu-list-item">
+                <a href="#">
+                    <div class="wd-submenu-item-text">Global Announcements</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="wd-main-content col-auto">
+        <ul class="wd-content-list">
+            <li class="wd-main-list-item">
+                <i class="fa-regular fa-8x fa-circle-user"></i>
+            </li>
+            <li class="wd-main-list-item">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Name*</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1">
+                </div>
+            </li>
+
+            <li class="wd-main-list-item">
+                <label for="pronounsDropdown" class="form-label">Pronouns:</label>
+                <div class="dropdown">
+                    <button id="pronounsDropdown" class="btn btn-light dropdown-toggle" type="button form-control"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                        None
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">He/Him</a></li>
+                        <li><a class="dropdown-item" href="#">She/Her</a></li>
+                        <li><a class="dropdown-item" href="#">They/Them</a></li>
+                        <li><a class="dropdown-item" href="#">None</a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="wd-main-list-item">
+                <label for="title-input" class="form-label">Title:</label>
+                <input type="text" class="form-control" id="title-input">
+            </li>
+            <li class="wd-main-list-item">
+                <label for="contact-form" class="form-label large-text">Contact</label>
+                <p id="contact-form">No registered services, you can add some on the settings page</p>
+            </li>
+            <li class="wd-main-list-item">
+                <label for="biography-input" class="form-label large-text">Biography</label>
+                <input type="text" class="form-control" id="biography-input">
+            </li>
+
+            <li class="wd-main-list-item row">
+                <label for="link-form" class="form-label large-text">Links</label>
+                <div id="link-form" class="col-5">
+                    <label for="link-title" class="form-label large-text">Title</label>
+                    <input type="text" class="form-control" id="link-title">
+                    <a href="#" class="btn btn-light add-link-btn float-left" role="button">
+                        Add another link
+                    </a>
+                </div>
+                <div class="col-1 link-icon">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="col-5">
+                    <label for="link-url" class="form-label large-text">URL</label>
+                    <input type="text" class="form-control" id="link-url">
+                </div>
+                <div class="col-1 link-icon link-icon-x">
+                    <i class="fa-solid fa-x"></i>
+                </div>
+            </li>
+
+            <li class="wd-main-list-item bottom-btns row">
+
+                <a href="index.html" class="btn btn-light add-link-btn col-auto" role="button">
+                    Cancel
+                </a>
+
+                <a href="index.html" class="btn btn-danger add-link-btn col-auto" role="button">
+                    Save Profile
+                </a>
+
+            </li>
+        </ul>
+
+    </div>
+    <div class="col-auto wd-third-column top-align">
+        <a href="index.html" class="btn btn-light edit-button float-end" role="button">
+            <i class="fa-solid fa-pencil"></i>
+            Cancel Editing
+        </a>
+    </div>
+
+
+</div>
 </body>
 </html>

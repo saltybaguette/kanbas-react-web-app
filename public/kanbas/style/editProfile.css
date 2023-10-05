@@ -1,0 +1,66 @@
+
+.wd-main-content {
+    position: relative;
+    left: 20%;
+    top: 30%;
+    width: 500px;
+    height: 100vh;
+    min-width: 500px;
+}
+
+.wd-content-list {
+    position: inherit;
+    top: 10%;
+    list-style-type: none;
+    text-align: left;
+}
+.wd-main-list-item-name {
+    font-size: xx-large;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.wd-main-list-item {
+    padding-bottom: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+.large-text {
+    padding-bottom: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+.wd-content-links {
+    color: #980000;
+    text-decoration: none;
+    text-underline-style: none;
+    text-underline-mode: 0;
+}
+
+.add-link-btn {
+    text-align: left;
+}
+
+.link-icon {
+    padding-top: 10%;
+}
+.link-icon-x {
+    color: red;
+}
+
+.bottom-btns {
+    float: right;
+    padding-left: 5px;
+}
+
+.wd-third-column {
+    position: relative;
+    left: 20%;
+    top: 30%;
+    width: 500px;
+    height: 100vh;
+}
+
+.edit-button {
+    position: inherit;
+    top:20%;
+}

@@ -1,0 +1,57 @@
+.page-label {
+    position: relative;
+    text-align: left;
+    font-size: xx-large;
+    left: 0px;
+}
+
+.page-subtitle {
+    position: relative;
+    text-align: left;
+    font-size: x-large;
+    left: 0px
+}
+
+.card-list {
+    padding-left: 40px;
+}
+
+.card-header-1 {
+    background-color: blue;
+    height:100px;
+}
+.card-header-2 {
+    background-color: red;
+    height:100px;
+}
+.card-header-3 {
+    background-color: orange;
+    height:100px;
+}
+.card-header-4 {
+    background-color: purple;
+    height:100px;
+}
+
+.w-250 {
+    width: 250px;
+    flex-shrink: inherit;
+    height: 300px;
+    min-height: 150px;
+}
+
+.card-pad {
+    padding: 40px;
+}
+
+.card-title {
+    font-size: medium;
+    text-align: left;
+    color: #7070ff;
+}
+
+.card-text {
+    font-size:small;
+    text-align: left;
+    color: #282828;
+}

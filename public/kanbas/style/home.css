@@ -1,0 +1,127 @@
+
+.wd-main-content {
+    position: relative;
+    left: 20%;
+    top: 30%;
+    width: 900px;
+    height: 100vh;
+    text-align: right;
+}
+
+.wd-content-list {
+    position: inherit;
+    top: 10%;
+    list-style-type: none;
+    text-align: left;
+}
+.wd-main-list-item-name {
+    font-size: xx-large;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.wd-main-list-item {
+    padding-bottom: 50px;
+}
+.wd-content-links {
+    color: #980000;
+    text-decoration: none;
+    text-underline-style: none;
+    text-underline-mode: 0;
+}
+
+.wd-third-column {
+    position: relative;
+    left: 20%;
+    top: 30%;
+    width: 500px;
+    height: 100vh;
+}
+
+.edit-button {
+    position: inherit;
+    top:20%;
+}
+
+.bready-crumb {
+    --bs-breadcrumb-divider: '>';
+    padding-top: 20px;
+}
+
+.top-options {
+    text-align: right;
+    padding-right: 0;
+    float: right;
+}
+
+.check-icon {
+    color: green;
+}
+
+.main-content-list {
+    list-style-type: none;
+    text-align: left;
+    top: 10%;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.list-group-item {
+    width: 100%;
+}
+
+.week-item {
+    background-color: lightgray;
+    color: black;
+    font-size: medium;
+}
+
+.main-item {
+    background-color: white;
+    text-transform: uppercase;
+    font-size: medium;
+    border-left: 5px solid green;
+}
+
+.sub-item {
+    background-color: white;
+    color: black;
+    font-size: medium;
+    padding-left: 50px;
+    border-left: 5px solid green;
+}
+
+.link-item {
+    background-color: white;
+    color: #980000;
+    text-decoration: none;
+    font-size: small;
+    border-left: 5px solid green;
+}
+
+.link-item>a {
+    color: #980000;
+    padding-right: 10px;
+    text-decoration: none;
+
+}
+
+.link-item>a>i {
+    padding-right: 10px;
+    color: lightgray;
+}
+
+.list-group-item>i {
+    color: green;
+    padding-right: 0;
+    position: relative;
+    text-align: right;
+    float: right;
+}
+.link-item>a>i.check-link {
+    font-size: medium;
+    color: green;
+    padding-right: 0;
+    position: relative;
+    text-align: right;
+    float: right;
+}

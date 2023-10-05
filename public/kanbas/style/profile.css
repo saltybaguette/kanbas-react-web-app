@@ -1,0 +1,52 @@
+
+.wd-main-content {
+    position: relative;
+    left: 20%;
+    top: 30%;
+    width: 400px;
+    height: 100vh;
+}
+
+.wd-content-list {
+    position: inherit;
+    top: 10%;
+    list-style-type: none;
+    text-align: left;
+}
+.wd-main-list-item-name {
+    font-size: xx-large;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.wd-main-list-item {
+    padding-bottom: 50px;
+}
+.wd-content-links {
+    color: #980000;
+    text-decoration: none;
+    text-underline-style: none;
+    text-underline-mode: 0;
+}
+
+.wd-third-column {
+
+    position: relative;
+    left: 10%;
+    height: 100vh;
+    float: right;
+    width: fit-content;
+    padding: 0;
+    top:0;
+    display: inline;
+}
+
+.edit-button {
+    position: inherit;
+    float: right;
+    top: 0;
+}
+
+.top-align {
+    padding-top: 0;
+    top: 10%;
+}
