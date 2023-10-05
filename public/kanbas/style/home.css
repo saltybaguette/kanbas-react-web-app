@@ -11,6 +11,7 @@
 .wd-content-list {
     position: inherit;
     top: 10%;
+    width: fit-content;
     list-style-type: none;
     text-align: left;
 }
@@ -96,6 +97,7 @@
     text-decoration: none;
     font-size: small;
     border-left: 5px solid green;
+    display: inline;
 }
 
 .link-item>a {
@@ -117,10 +119,28 @@
     text-align: right;
     float: right;
 }
-.link-item>a>i.check-link {
+/*.link-item>a>i.check-link {*/
+/*    font-size: medium;*/
+/*    color: green;*/
+/*    padding-right: 0;*/
+/*    position: relative;*/
+/*    text-align: right;*/
+/*    float: right;*/
+/*}*/
+
+.list-group-item .check-icon {
     font-size: medium;
     color: green;
-    padding-right: 0;
+    padding-left: 10px;
+    position: relative;
+    text-align: right;
+    float: right;
+}
+
+.list-group-item .ellipses-option{
+    font-size: medium;
+    color: gray;
+    padding-left: 10px;
     position: relative;
     text-align: right;
     float: right;
