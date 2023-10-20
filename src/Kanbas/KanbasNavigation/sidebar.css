@@ -1,0 +1,145 @@
+
+.wd-sidebar {
+    flex:1;
+    position: fixed;
+    left: 0px;
+    width: 80px;
+    height: 100vh;
+    background-color: black;
+    text-align: center;
+
+}
+
+.wd-selected-sidebar {
+    position: inherit;
+    background-color: white;
+    text-align: center;
+}
+
+.wd-menu-list {
+    list-style-type: none;
+    align-self: center;
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+    padding: 0px;
+}
+
+.wd-list-item {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+
+}
+
+.menu-item-icon-container {
+    display: block;
+    margin-bottom: 5px;
+    color: #980000;
+}
+
+.menu-item-icon-container-account {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.menu-item-icon-container-account-selected {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.menu-item-text {
+    color: white;
+    text-decoration: none;
+    text-underline-style: none;
+    text-underline-mode: 0;
+    font-size: small;
+    text-align: center;
+}
+
+.div {
+    display: block;
+}
+
+.container a:hover {
+    color: black;
+    text-decoration: none;
+}
+.container .wd-menu-list a {
+    color: white;
+    text-decoration: none;
+}
+.container .wd-submenu a {
+    text-decoration: none;
+}
+
+.wd-list-item-selected {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    background-color: white;
+
+}
+.menu-item-text-selected {
+    color: black;
+    text-decoration: none;
+
+    text-underline-style: none;
+    text-underline-mode: 0;
+    font-size: small;
+    text-align: center;
+}
+
+.wd-submenu {
+    position: fixed;
+    top: 80px;
+    left: 100px;
+    width: 190px;
+    height: fit-content;
+    background-color: white;
+    text-align: left;
+    max-width: 100%;
+    min-width: 20%;
+    padding-left: 0;
+}
+.wd-submenu-list-item {
+    margin-bottom: 20px;
+    display: block;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    outline:none;
+}
+
+.wd-submenu-list-item-selected {
+    margin-bottom: 20px;
+    display: block;
+    max-width: 100%;
+    border-left: 3px black solid;
+    overflow-wrap: break-word;
+    outline:none;
+}
+
+.wd-submenu-item-text {
+    color: #980000;
+    text-decoration: none;
+    text-underline-style: none;
+    text-underline-mode: 0;
+    font-size: medium;
+    text-align: left;
+    padding-left: 10px;
+
+}
+
+
+.wd-submenu-item-text-selected {
+    color: black;
+    text-decoration: none;
+    text-underline-style: none;
+    text-underline-mode: 0;
+    font-size: medium;
+    text-align: left;
+    padding-left: 10px;
+}
+
