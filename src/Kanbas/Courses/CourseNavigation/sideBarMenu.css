@@ -3,10 +3,11 @@
     flex:1;
     position: fixed;
     left: 0px;
-    width: 50px;
+    width: 80px;
     height: 100vh;
     background-color: black;
     text-align: center;
+
 
 }
 
@@ -80,7 +81,33 @@
     display: block;
     width: 100%;
     background-color: white;
+    text-decoration: none;
+    color: black;
 
+}
+
+ul {
+    list-style-type: none;
+}
+.custom-link {
+    text-decoration: none;
+    color: black; /* Set the desired default text color */
+    line-height: normal;
+}
+Link {
+    line-height:normal;
+    padding:0;
+    margin:0;
+}
+a:active {
+    padding:0;
+    margin:0;
+    line-height:normal;
+}
+
+
+.custom-link:hover {
+    color: black; /* Set the desired hover text color (can be the same as default) */
 }
 .menu-item-text-selected {
     color: black;
@@ -95,7 +122,7 @@
 .wd-submenu {
     position: fixed;
     top: 80px;
-    left: 100px;
+    left: 140px;
     width: 190px;
     height: fit-content;
     background-color: white;
@@ -119,18 +146,19 @@
     border-left: 3px black solid;
     overflow-wrap: break-word;
     outline:none;
+    padding:0;
 }
 
 .wd-submenu-item-text {
-    color: #980000;
-    text-decoration: none;
-    text-underline-style: none;
-    text-underline-mode: 0;
-    font-size: medium;
-    text-align: left;
-    padding-left: 10px;
+     color: #980000;
+     text-decoration: none;
+     text-underline-style: none;
+     text-underline-mode: 0;
+     font-size: medium;
+     text-align: left;
+     padding-left: 10px;
 
-}
+ }
 
 
 .wd-submenu-item-text-selected {

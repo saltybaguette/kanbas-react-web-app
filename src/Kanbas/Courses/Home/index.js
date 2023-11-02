@@ -1,4 +1,5 @@
 import ModuleList from "../Modules/ModuleList";
+import CourseNavigation from "../CourseNavigation";
 function Home() {
     return (
         <div>

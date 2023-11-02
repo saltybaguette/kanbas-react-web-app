@@ -7,7 +7,7 @@ import Courses from "./Courses";
 
 function Kanbas() {
     return(
-        <div className={"d-flex"}>
+        <div className={"container"}>
             <KanbasNavigation/>
             <div>
                 <Routes>

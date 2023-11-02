@@ -12,7 +12,6 @@ function Courses() {
     const course = db.courses.find((course) => course._id === courseId);
     return (
         <div>
-            <h1>Course {course.name}</h1>
             <CourseNavigation/>
             <div>
                 <div
