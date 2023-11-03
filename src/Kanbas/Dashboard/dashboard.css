@@ -16,6 +16,48 @@
     padding-left: 40px;
 }
 
+.button-pair{
+    padding-left:110px;
+
+}
+
+.add-row {
+    text-align:right;
+    width:fit-content;
+    padding-left: 70px;
+    max-width:300px;
+}
+
+.add-button {
+
+    background-color: #28bb04;
+    border-width: 2px;
+    border-radius: 10px;
+
+}
+
+.update-button {
+
+    background-color: #3683f6;
+    border-width: 2px;
+    border-radius: 10px;
+
+}
+
+
+
+.delete-button {
+    background-color: #f63636;
+    border-width: 2px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.edit-button {
+    background-color: #3683f6;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
 .card-header-1 {
     background-color: blue;
     height:100px;
@@ -31,6 +73,8 @@
 .card-header-4 {
     background-color: purple;
     height:100px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .w-250 {
@@ -45,7 +89,7 @@
 }
 
 .card-title {
-    font-size: medium;
+    font-size: x-large;
     text-align: left;
     color: #7070ff;
 }

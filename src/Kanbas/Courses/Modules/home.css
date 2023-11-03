@@ -145,3 +145,23 @@
     text-align: right;
     float: right;
 }
+
+.input-boxes {
+    display: block;
+}
+
+.title-input {
+    width: fit-content;
+    margin-left: 60px;
+    font-size:medium;
+}
+
+.description-input {
+    margin-left: 10px;
+}
+
+.add-button {
+    margin-right: 10px;
+}
+
+
