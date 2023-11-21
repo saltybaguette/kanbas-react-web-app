@@ -5,11 +5,27 @@ import Modules from "./Modules";
 import Home from "./Home";
 import Assignments from "./Assignments";
 import AssignmentEditor from "./Assignments/AssignmentEditor";
+import { useState, useEffect } from "react";
+import axios from "axios";
+
 
 
 function Courses({ courses }) {
     const { courseId } = useParams();
-    const course = courses.find((course) => course._id === courseId);
+    const URL = "http://localhost:4000/api/courses";
+    const [course, setCourse] = useState({});
+    const findCourseById = async (courseId) => {
+        const response = await axios.get(
+            `${URL}/${courseId}`
+        );
+        setCourse(response.data);
+    };
+
+    //const course = courses.find((course) => course._id === courseId);
+    useEffect(() => {
+        findCourseById(courseId);
+    }, [courseId]);
+
     return (
         <div>
             <CourseNavigation/>
@@ -22,7 +38,7 @@ function Courses({ courses }) {
                     }}
                     >
                     <Routes>
-                        <Route path="/" element={<Navigate to="Home" />} />
+                        {/*<Route path="/" element={<Navigate to="Home" />} />*/}
                         <Route path="Home" element={<Home/>} />
                         <Route path="Modules" element={<Modules/>} />
                         <Route path="Assignments" element={<Assignments/>} />
