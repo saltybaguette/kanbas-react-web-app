@@ -7,6 +7,7 @@ import db from "./Database";
 import { useState } from "react";
 import store from "./store";
 import { Provider } from "react-redux";
+import Signin from "../users/signin";
 
 
 function Kanbas() {
@@ -40,6 +41,7 @@ function Kanbas() {
                 <div>
                     <Routes>
                         <Route path="/" element={<Navigate to="Dashboard"/>}/>
+                        <Route path={"/signin"} element={<Signin/>} />
                         <Route path="Account" element={<h1>Account</h1>}/>
                         <Route path="Dashboard" element={
                             <Dashboard
