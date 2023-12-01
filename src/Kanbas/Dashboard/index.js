@@ -30,7 +30,7 @@ function Dashboard({ courses, course, setCourse, addNewCourse,
             <div className={"card-list row d-flex flex-wrap row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 row-cols-xlg-4"}>
                 {courses.map((course) =>
                     <div className={"card-button-group"}>
-                    <Link key={course._id} to={`../../Kanbas/Courses/${course._id}`}>
+                    <Link key={course._id} to={`../../Kanbas/Courses/${course._id.$oid}`}>
                         <div className="col card-pad">
                             <div className="card w-250">
                                 <div className="card-header-4"></div>
